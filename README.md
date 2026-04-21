@@ -26,5 +26,18 @@ End-to-end radiometric and geometric correction pipeline for Landsat 8/9 Collect
 - Surface Reflectance Band 4 Mean: 0.0827
 - Atmospheric contribution removed: ~0.03 units
 - NDVI Min: -0.38 | Max: 0.85 | Mean: 0.43
+  ## Geometric Correction
+The Landsat 8 L1TP product used in this pipeline is systematically 
+orthorectified by USGS before distribution. Geometric accuracy was 
+verified programmatically by extracting Ground Control Points and 
+confirming the affine transform.
+
+- Ground Control Points used by USGS: 690
+- Geometric RMSE: 5.952m (sub-pixel accuracy at 30m resolution)
+- CRS: EPSG:32644 (UTM Zone 44N)
+- Additional warping not required — existing correction within acceptable limits
+
+This is consistent with standard L1TP processing where systematic 
+geometric correction is applied prior to data distribution.
 
 ![NDVI Result](ndvi_result.png)
