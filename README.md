@@ -14,7 +14,7 @@ End-to-end radiometric and geometric correction pipeline for Landsat 8/9 Collect
 ## Data
 - Sensor: Landsat 8 OLI
 - Scene: LC08_L1TP_141045_20260412
-- Location: West Bengal, India (UTM Zone 44N)
+- Location: Odisha/Jharkhand region, India (UTM Zone 44N)
 - Cloud Cover: 0%
 - Image Quality: 9/10
 
